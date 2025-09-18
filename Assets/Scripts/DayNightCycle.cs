@@ -63,6 +63,6 @@ public class DayNightCycle : MonoBehaviour
     
     public bool IsNightTime()
     {
-        return timeOfDay >= 18f || timeOfDay < 6f; // same logic you use for street lamps
+        return timeOfDay >= 18f || timeOfDay < 6f; 
     }
 }

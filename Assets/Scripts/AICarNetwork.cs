@@ -58,7 +58,7 @@ public class AICarNetwork : MonoBehaviour
         if (leftHeadlight == null || rightHeadlight == null) return;
 
         // Get the DayNightCycle instance (assuming one exists in scene)
-        DayNightCycle cycle = FindObjectOfType<DayNightCycle>();
+        DayNightCycle cycle = FindFirstObjectByType<DayNightCycle>();
         if (cycle != null)
         {
             bool nightTime = cycle.IsNightTime(); // Implement IsNightTime() in DayNightCycle
