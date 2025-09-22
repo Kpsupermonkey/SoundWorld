@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: ../SoundWorldAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638938026063344690
+  lastModified: 638938085537887740
   FileSizes:
   - Name: Desktop
-    Value: 1074
+    Value: 1250
   Exists: 1
 --- !u!114 &-5954675919864829034
 MonoBehaviour:
@@ -91,10 +91,10 @@ MonoBehaviour:
   Path: ../SoundWorldAudio/Build/Desktop/Level.bank
   Name: Level
   StudioPath: bank:/Level
-  lastModified: 638938026063981355
+  lastModified: 638938093787333004
   FileSizes:
   - Name: Desktop
-    Value: 2559424
+    Value: 2559456
   Exists: 1
 --- !u!114 &-892034956459238944
 MonoBehaviour:
@@ -111,7 +111,7 @@ MonoBehaviour:
   Path: ../SoundWorldAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638938026063354703
+  lastModified: 638938085537897735
   FileSizes:
   - Name: Desktop
     Value: 1028
@@ -135,13 +135,14 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -4406784184503913726}
   - {fileID: -5954675919864829034}
-  EditorParameters: []
+  EditorParameters:
+  - {fileID: 4310619899673230285}
   MasterBanks:
   - {fileID: -8737426986597013203}
   StringsBanks:
   - {fileID: -892034956459238944}
   cacheVersion: 131849
-  cacheTime: 638938026063981355
+  cacheTime: 638938093787333004
   SerializableEventsDict:
   - key: event:/Footsteps
     index: 0
@@ -168,7 +169,31 @@ MonoBehaviour:
     data1: 1276292068
     data2: 3702565552
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4310619899673230285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DayNight
+  m_EditorClassIdentifier: 
+  Name: DayNight
+  StudioPath: parameter:/DayNight
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1276292068
+    data2: 3702565552
+  Type: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &8207798572776833141
