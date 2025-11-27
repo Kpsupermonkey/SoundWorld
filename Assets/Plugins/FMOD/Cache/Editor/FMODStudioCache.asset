@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8995186868466104672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Week 9.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Week 7/Week 7 task/Build/Desktop/Week 9.bank
+  Name: Week 9
+  StudioPath: bank:/Week 9/Week 9
+  lastModified: 638998573278469936
+  FileSizes:
+  - Name: Desktop
+    Value: 22272
+  Exists: 1
 --- !u!114 &-8737426986597013203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20,7 +40,7 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1250
   Exists: 1
---- !u!114 &-7132234294651496518
+--- !u!114 &-8326731096734156432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30,9 +50,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AmbienceCafe
+  m_Name: event:/Week 7/AmbienceCafe
   m_EditorClassIdentifier: 
-  Path: event:/AmbienceCafe
+  Path: event:/Week 7/AmbienceCafe
   Guid:
     Data1: -502358736
     Data2: 1287725555
@@ -44,11 +64,11 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -4495231538228454974}
+  - {fileID: -7363891523607429748}
   MinDistance: 1
   MaxDistance: 20
   Length: 60436
---- !u!114 &-7041719987634856645
+--- !u!114 &-7363891523607429748
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58,7 +78,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AmbiencePark/Reverb
+  m_Name: parameter:/AmbienceCafe/Reverb
   m_EditorClassIdentifier: 
   Name: Reverb
   StudioPath: 
@@ -71,6 +91,26 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 1
   Labels: []
+  Exists: 1
+--- !u!114 &-6497106447811977480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue_Voiceover.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Week 7/Week 7 task/Build/Desktop/Dialogue_Voiceover.bank
+  Name: Dialogue_Voiceover
+  StudioPath: bank:/Week 5/Dialogue_Voiceover
+  lastModified: 638998573303057279
+  FileSizes:
+  - Name: Desktop
+    Value: 299488
   Exists: 1
 --- !u!114 &-5954675919864829034
 MonoBehaviour:
@@ -100,7 +140,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 70000
---- !u!114 &-5774220785641170284
+--- !u!114 &-5615838779068048625
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,45 +149,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AmbienceShoppingMall/Reverb
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Week 6/Music
   m_EditorClassIdentifier: 
-  Name: Reverb
-  StudioPath: 
-  Min: 0
-  Max: 10
-  Default: 0
-  ID:
-    data1: 160075886
-    data2: 800854610
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-4495231538228454974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AmbienceCafe/Reverb
-  m_EditorClassIdentifier: 
-  Name: Reverb
-  StudioPath: 
-  Min: 0
-  Max: 10
-  Default: 0
-  ID:
-    data1: 160075886
-    data2: 800854610
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
+  Path: event:/Week 6/Music
+  Guid:
+    Data1: 1546298506
+    Data2: 1149787473
+    Data3: 1484663977
+    Data4: -2107973952
+  Banks:
+  - {fileID: -4026946948400827001}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1463932506154904046}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 165581
 --- !u!114 &-4406784184503913726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,12 +210,83 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../Week 7/Week 7 task/Build/Desktop/ObjectCarMotor.bank
   Name: ObjectCarMotor
-  StudioPath: bank:/ObjectCarMotor
-  lastModified: 638986466537251106
+  StudioPath: bank:/Week 7/ObjectCarMotor
+  lastModified: 638998573590766764
   FileSizes:
   - Name: Desktop
     Value: 465856
   Exists: 1
+--- !u!114 &-4026946948400827001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Week 6 Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Week 7/Week 7 task/Build/Desktop/Week 6 Music.bank
+  Name: Week 6 Music
+  StudioPath: bank:/Week 6/Week 6 Music
+  lastModified: 638998573326370398
+  FileSizes:
+  - Name: Desktop
+    Value: 1535072
+  Exists: 1
+--- !u!114 &-3367217239039237404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbiencePark/Reverb
+  m_EditorClassIdentifier: 
+  Name: Reverb
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 160075886
+    data2: 800854610
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3292813441545893878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Week 5/Dialogue_Voiceover
+  m_EditorClassIdentifier: 
+  Path: event:/Week 5/Dialogue_Voiceover
+  Guid:
+    Data1: 1513561578
+    Data2: 1074725461
+    Data3: 1600709003
+    Data4: 827470002
+  Banks:
+  - {fileID: -6497106447811977480}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2958094371241295451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,7 +307,7 @@ MonoBehaviour:
   - Name: Desktop
     Value: 2559456
   Exists: 1
---- !u!114 &-1654271771080473839
+--- !u!114 &-2131294048515840152
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -226,24 +317,71 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AmbiencePark
+  m_Name: event:/Week 9/BackgroundMenuMusic
   m_EditorClassIdentifier: 
-  Path: event:/AmbiencePark
+  Path: event:/Week 9/BackgroundMenuMusic
   Guid:
-    Data1: -777961454
-    Data2: 1204637157
-    Data3: 2015918776
-    Data4: -1803680538
+    Data1: -2136499052
+    Data2: 1112880867
+    Data3: 194804376
+    Data4: 859043281
   Banks:
-  - {fileID: 4512625489027171362}
+  - {fileID: -8995186868466104672}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1721395760685812073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Footsteps.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Week 7/Week 7 task/Build/Desktop/Footsteps.bank
+  Name: Footsteps
+  StudioPath: bank:/Week 3/Footsteps
+  lastModified: 638998573294686384
+  FileSizes:
+  - Name: Desktop
+    Value: 32992
+  Exists: 1
+--- !u!114 &-1451631452756273089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Week 7/ObjectCarMotor
+  m_EditorClassIdentifier: 
+  Path: event:/Week 7/ObjectCarMotor
+  Guid:
+    Data1: 354812302
+    Data2: 1295359213
+    Data3: -2075080534
+    Data4: 1000094473
+  Banks:
+  - {fileID: -4315895102002817372}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -7041719987634856645}
+  - {fileID: 3787885811569159389}
   MinDistance: 1
   MaxDistance: 20
-  Length: 60000
+  Length: 15068
 --- !u!114 &-892034956459238944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,6 +402,34 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1028
   Exists: 1
+--- !u!114 &-807503197370126647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Week 7/AmbiencePark
+  m_EditorClassIdentifier: 
+  Path: event:/Week 7/AmbiencePark
+  Guid:
+    Data1: -777961454
+    Data2: 1204637157
+    Data3: 2015918776
+    Data4: -1803680538
+  Banks:
+  - {fileID: 4512625489027171362}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3367217239039237404}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,11 +449,20 @@ MonoBehaviour:
   - {fileID: 6082587535106449787}
   - {fileID: 6641021933883766136}
   - {fileID: -4315895102002817372}
+  - {fileID: -6497106447811977480}
+  - {fileID: -1721395760685812073}
+  - {fileID: -4026946948400827001}
+  - {fileID: -8995186868466104672}
   EditorEvents:
-  - {fileID: -7132234294651496518}
-  - {fileID: -1654271771080473839}
-  - {fileID: 2759267875875009428}
-  - {fileID: 2553824843482934629}
+  - {fileID: -8326731096734156432}
+  - {fileID: -807503197370126647}
+  - {fileID: 7172623987981036526}
+  - {fileID: -3292813441545893878}
+  - {fileID: 8382393760880589704}
+  - {fileID: -1451631452756273089}
+  - {fileID: -5615838779068048625}
+  - {fileID: 1727447308820405727}
+  - {fileID: -2131294048515840152}
   EditorParameters:
   - {fileID: 6810135992693989532}
   MasterBanks:
@@ -295,17 +470,51 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 3726934636729239715}
   cacheVersion: 131849
-  cacheTime: 638986496061630420
+  cacheTime: 638998573590766764
   SerializableEventsDict:
-  - key: event:/AmbienceCafe
+  - key: event:/Week 7/AmbienceCafe
     index: 0
-  - key: event:/AmbiencePark
+  - key: event:/Week 7/AmbiencePark
     index: 1
-  - key: event:/AmbienceShoppingMall
+  - key: event:/Week 7/AmbienceShoppingMall
     index: 2
-  - key: event:/ObjectCarMotor
+  - key: event:/Week 5/Dialogue_Voiceover
     index: 3
---- !u!114 &2553824843482934629
+  - key: event:/Week 3/Footsteps
+    index: 4
+  - key: event:/Week 7/ObjectCarMotor
+    index: 5
+  - key: event:/Week 6/Music
+    index: 6
+  - key: event:/Week 9/Button click
+    index: 7
+  - key: event:/Week 9/BackgroundMenuMusic
+    index: 8
+--- !u!114 &1463932506154904046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/MusicSection
+  m_EditorClassIdentifier: 
+  Name: MusicSection
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 3322691056
+    data2: 2136640844
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1727447308820405727
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -315,52 +524,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ObjectCarMotor
+  m_Name: event:/Week 9/Button click
   m_EditorClassIdentifier: 
-  Path: event:/ObjectCarMotor
+  Path: event:/Week 9/Button click
   Guid:
-    Data1: 354812302
-    Data2: 1295359213
-    Data3: -2075080534
-    Data4: 1000094473
+    Data1: 1560213797
+    Data2: 1237891779
+    Data3: -1107558516
+    Data4: 771356595
   Banks:
-  - {fileID: -4315895102002817372}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 3848848424827155098}
+  - {fileID: -8995186868466104672}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 15068
---- !u!114 &2759267875875009428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AmbienceShoppingMall
-  m_EditorClassIdentifier: 
-  Path: event:/AmbienceShoppingMall
-  Guid:
-    Data1: 1680641672
-    Data2: 1203861301
-    Data3: 1857156749
-    Data4: -1564377542
-  Banks:
-  - {fileID: 6082587535106449787}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -5774220785641170284}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5000
+  Length: 2037
 --- !u!114 &3127867497591434969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,11 +579,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../Week 7/Week 7 task/Build/Desktop/AmbienceCafe.bank
   Name: AmbienceCafe
-  StudioPath: bank:/AmbienceCafe
-  lastModified: 638986496061630420
+  StudioPath: bank:/Week 7/AmbienceCafe
+  lastModified: 638998573415531062
   FileSizes:
   - Name: Desktop
     Value: 5248928
+  Exists: 1
+--- !u!114 &3657312737756661510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SurfaceType
+  m_EditorClassIdentifier: 
+  Name: SurfaceType
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3406735526
+    data2: 2290331079
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Stairs
+  - Tile
   Exists: 1
 --- !u!114 &3726934636729239715
 MonoBehaviour:
@@ -420,12 +626,12 @@ MonoBehaviour:
   Path: ../../Week 7/Week 7 task/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638986496059460553
+  lastModified: 638998573274702064
   FileSizes:
   - Name: Desktop
-    Value: 1158
+    Value: 1720
   Exists: 1
---- !u!114 &3848848424827155098
+--- !u!114 &3787885811569159389
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -487,8 +693,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../Week 7/Week 7 task/Build/Desktop/AmbiencePark.bank
   Name: AmbiencePark
-  StudioPath: bank:/AmbiencePark
-  lastModified: 638986466626514433
+  StudioPath: bank:/Week 7/AmbiencePark
+  lastModified: 638998573549461877
   FileSizes:
   - Name: Desktop
     Value: 5421088
@@ -507,8 +713,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../Week 7/Week 7 task/Build/Desktop/AmbienceShoppingMall.bank
   Name: AmbienceShoppingMall
-  StudioPath: bank:/AmbienceShoppingMall
-  lastModified: 638986466530197986
+  StudioPath: bank:/Week 7/AmbienceShoppingMall
+  lastModified: 638998573563828912
   FileSizes:
   - Name: Desktop
     Value: 581024
@@ -528,7 +734,7 @@ MonoBehaviour:
   Path: ../../Week 7/Week 7 task/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638986496059424130
+  lastModified: 638998573274541652
   FileSizes:
   - Name: Desktop
     Value: 1248
@@ -557,6 +763,58 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &7109968030147739000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbienceShoppingMall/Reverb
+  m_EditorClassIdentifier: 
+  Name: Reverb
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 160075886
+    data2: 800854610
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7172623987981036526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Week 7/AmbienceShoppingMall
+  m_EditorClassIdentifier: 
+  Path: event:/Week 7/AmbienceShoppingMall
+  Guid:
+    Data1: 1680641672
+    Data2: 1203861301
+    Data3: 1857156749
+    Data4: -1564377542
+  Banks:
+  - {fileID: 6082587535106449787}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7109968030147739000}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
 --- !u!114 &8207798572776833141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -583,3 +841,31 @@ MonoBehaviour:
   - Concrete
   - Grass
   Exists: 1
+--- !u!114 &8382393760880589704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Week 3/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Week 3/Footsteps
+  Guid:
+    Data1: -1795022591
+    Data2: 1215260689
+    Data3: 1368174251
+    Data4: 258025643
+  Banks:
+  - {fileID: -1721395760685812073}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3657312737756661510}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 534

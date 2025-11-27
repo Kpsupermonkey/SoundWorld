@@ -638,7 +638,11 @@ MonoBehaviour:
   - AmbienceCafe
   - AmbiencePark
   - AmbienceShoppingMall
+  - Dialogue_Voiceover
+  - Footsteps
   - ObjectCarMotor
+  - Week 6 Music
+  - Week 9
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
