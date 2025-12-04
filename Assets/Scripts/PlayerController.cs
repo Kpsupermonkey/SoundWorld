@@ -1,3 +1,4 @@
+using Audio;
 using UnityEngine;
 using UnityEngine.InputSystem; // For the new Input System
 
@@ -31,6 +32,8 @@ public class PlayerController : MonoBehaviour
     private bool isRunning;
     private bool isGrounded;
     private float xRotation = 0f; // pitch rotation for camera
+    
+    public Footsteps footsteps;
 
     void Awake()
     {
@@ -79,6 +82,8 @@ public class PlayerController : MonoBehaviour
 
         Vector3 movement = moveDir * currentSpeed;
         controller.Move(movement * Time.deltaTime);
+
+        footsteps.isMoving = moveDir != Vector3.zero;
     }
 
     private void HandleLook()

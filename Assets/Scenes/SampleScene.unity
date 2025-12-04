@@ -42372,7 +42372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nonRigidbodyVelocity: 0
-  attenuationObject: {fileID: 0}
+  attenuationObject: {fileID: 1331458816}
 --- !u!1001 &330675284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104776,7 +104776,7 @@ Transform:
   m_GameObject: {fileID: 827950580}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.221, z: 0}
+  m_LocalPosition: {x: 0, y: -1.459, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -169449,6 +169449,9 @@ GameObject:
   - component: {fileID: 1331458818}
   - component: {fileID: 1331458817}
   - component: {fileID: 1331458820}
+  - component: {fileID: 1331458821}
+  - component: {fileID: 1331458822}
+  - component: {fileID: 1331458823}
   m_Layer: 0
   m_Name: 01 Player
   m_TagString: Untagged
@@ -169481,6 +169484,7 @@ MonoBehaviour:
   mouseSensitivity: 10
   cameraTransform: {fileID: 330585546}
   groundCheck: {fileID: 827950581}
+  footsteps: {fileID: 1331458822}
 --- !u!143 &1331458818
 CharacterController:
   m_ObjectHideFlags: 0
@@ -169515,7 +169519,7 @@ Transform:
   m_GameObject: {fileID: 1331458816}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.81, z: 0}
+  m_LocalPosition: {x: -337.6, y: 1.81, z: 484.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -169665,6 +169669,89 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 330585545}
+--- !u!114 &1331458821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331458816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1795022591
+      Data2: 1215260689
+      Data3: 1368174251
+      Data4: 258025643
+    Path: event:/Week 3/Footsteps
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params:
+  - Name: SurfaceType
+    Value: 1
+  - Name: Speed
+    Value: 0
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &1331458822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331458816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a585e5425e151b4c83aa15327e725f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepEvent: event:/Week 3/Footsteps
+  walkSoundDelay: 1
+  runSoundDelay: 1
+  groundCheck: {fileID: 827950581}
+  groundCheckRadius: 0.3
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  isMoving: 0
+--- !u!54 &1331458823
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331458816}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1332355371
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -191073,7 +191160,7 @@ GameObject:
   - component: {fileID: 1499274327}
   m_Layer: 3
   m_Name: Grass Floor
-  m_TagString: Grass
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
